@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/0xcHri/test/refs/heads/main/assets/img/deskhero.png#gh-light-mode-only" width="180">
-  <img src="https://raw.githubusercontent.com/0xcHri/test/refs/heads/main/assets/img/logo_white.png#gh-dark-mode-only" width="180">
+  <img src="https://raw.githubusercontent.com/0xcHri/deskhero/refs/heads/main/assets/img/deskhero%20logo.png#gh-light-mode-only" width="200">
+  <img src="https://raw.githubusercontent.com/0xcHri/deskhero/refs/heads/main/assets/img/deskhero%20logo%202.png#gh-dark-mode-only" width="200">
 </div>
 
 <div align="center">
   
 ## Accelerare il supporto aziendale tramite il triage automatico intelligente dei ticket
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -24,8 +24,6 @@ Questo Project Work per il corso di Informatica per le Aziende Digitali (L-31) a
 L'architettura sviluppata si fonda su una rappresentazione testuale TF-IDF con gestione della negazione italiana e stemming leggero, affiancata da feature manuali di urgenza.
 
 Per la classificazione della categoria è stato adottato un approccio diretto a tre classi mediante Support Vector Machine lineare (LinearSVC), mentre per la priorità è stata implementata una decomposizione binaria a due stadi, ispirata alla metodologia di Frank e Hall (2001), che risolve il problema strutturale della classe intermedia. 
-
-Entrambi i task sono stati oggetto di un confronto tra tre classificatori: SVM, Random Forest e Logistic Regression - selezionando il modello sulla base delle metriche F1 macro e dell'interpretabilità
 
 ## Struttura del repository
 
@@ -60,13 +58,13 @@ E' possibile scegliere tra due modalità:
 
 **Istruzioni:**
 1. Cliccare sul badge oppure aprire direttamente il notebook tramite [questo link.](https://colab.research.google.com/drive/1N7NV3X9O_hNU-C0wnjep7YCuuGzhLZoj).
-2. Esegui le celle in ordine (Runtime → Run all).
+2. Eseguire le celle in ordine (Runtime → Esegui tutte).
 3. Il dataset verrà generato automaticamente.
 4. I modelli verranno addestrati.
 5. Alla fine si avvierà la dashboard interattiva.
 
 > [!NOTE]
-> La dashboard verrà resa pubblica e accessibile tramite un link temporaneo gradio.live visibile nell'output dashboard.py
+> La dashboard verrà resa pubblica e accessibile tramite un link temporaneo generato dall'esecuzione di dashboard.py
 
 ### 2. Esecuzione Locale
 
