@@ -1,0 +1,48 @@
+{
+  "architecture": {
+    "category": "TF-IDF + LinearSVC",
+    "priority": "Decomposizione binaria a due stadi (alta→bassa→media)"
+  },
+  "category_labels": [
+    "Amministrazione",
+    "Commerciale",
+    "Tecnico"
+  ],
+  "priority_labels": [
+    "alta",
+    "bassa",
+    "media"
+  ],
+  "results": {
+    "category": {
+      "SVM (LinearSVC)": {
+        "accuracy": 0.96,
+        "f1": 0.9582057394144904
+      },
+      "Random Forest": {
+        "accuracy": 0.97,
+        "f1": 0.9690657187482411
+      },
+      "Logistic Regression": {
+        "accuracy": 0.97,
+        "f1": 0.9690657187482411
+      }
+    },
+    "priority_two_stage": {
+      "SVM (LinearSVC)": {
+        "accuracy": 0.875,
+        "f1": 0.8743796349769454
+      },
+      "Random Forest": {
+        "accuracy": 0.865,
+        "f1": 0.8604550488271419
+      },
+      "Logistic Regression": {
+        "accuracy": 0.825,
+        "f1": 0.8169789342556242
+      }
+    }
+  },
+  "test_size": 0.2,
+  "random_state": 42
+}
