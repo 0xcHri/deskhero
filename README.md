@@ -71,7 +71,7 @@ E' possibile scegliere tra due modalità:
 #### Installazione
 
 ```bash
-git clone deskhero
+git clone https://github.com/0xcHri/deskhero
 
 pip install -r requirements.txt
 
